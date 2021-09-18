@@ -1,0 +1,37 @@
+[context.production.environment]
+  HUGO_VERSION = "0.71.1"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.68.1"
+
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+  Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+  Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+  Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+  Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"

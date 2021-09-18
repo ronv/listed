@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    {{ partial "header.html" . }}
+    <section>
+      <ul reversed class="list">
+        {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByDate.Reverse).Pages }}
+          {{ if ne .Kind "section" }}
+          <li>
+            <a class="link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}
+            </a>
+            <hr class="hr-list">
+            <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02/01/06" .Date }}</time>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>

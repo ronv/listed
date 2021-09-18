@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+<main id="main">
+  <div class="content">
+    {{ partial "header.html" . }}
+      {{ if eq .Type "photos" }}
+      <h2>{{ .Title }}</h2>
+      {{ end }}
+        {{ if eq .Type "photos" }}
+      {{ with .Params.image }}
+        <img src="{{ . }}"></img>
+      {{ end }}</a>
+      {{ end }}
+      <h2 class="post">{{ .Title }}</h2>
+      {{ .Content }}
+      {{ if eq .Type "posts" }}
+      {{ end }}
+      {{ if eq .Title "Projects" }}
+      <ul class="list">
+        {{ range where .Site.Pages.ByDate.Reverse "Section" "projects" }}
+          {{ if ne .Kind "section" }}
+          <li>
+            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{ if eq .Title "Photos" }}
+      <ul class="list photos">
+        {{ range where .Site.Pages.ByDate.Reverse "Section" "photos" }}
+          {{ if ne .Kind "section" }}
+          <li>
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+            {{ with .Params.image }}
+        <img src="{{ . }}"></img>
+      {{ end }}</a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+  </div>
+</main>
+</body>
+</html>

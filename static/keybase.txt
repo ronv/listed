@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/ronaldsvilcins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ronaldsvilcins.com
+  * I am ronaldsvilcins (https://keybase.io/ronaldsvilcins) on keybase.
+  * I have a public key with fingerprint BD2C 408F BAD4 5276 03E9  1D67 E896 1A40 B3C4 C8F5
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ab26c8169545f673925e88e318429f8725649a8fb45f02354879a41d0ee2bb390a",
+      "fingerprint": "bd2c408fbad4527603e91d67e8961a40b3c4c8f5",
+      "host": "keybase.io",
+      "key_id": "e8961a40b3c4c8f5",
+      "kid": "010171bd8fb14cbcb8a29da0f2b75df200c59bec617f1742cee541c3095fa9db6a440a",
+      "uid": "f5f355e31c0aacbc5be4bcc160c75419",
+      "username": "ronaldsvilcins"
+    },
+    "service": {
+      "hostname": "ronaldsvilcins.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1613999372,
+  "expire_in": 157680000,
+  "prev": "08b323d4125ab9dd848726609e720d7922c8f8c338ca86916ac5fa55c9d2e03c",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNzAnicbVJ/UFRVGN1dBXLTjTITsXB6CdkE+H7/2KAVigYVw1JAp2K577774MGy
+C7vLopBJ42CZpjEgARNqzQ6mAVaQU6Q0wArJmqOVlskgaDWiaISiARv0HpP/ef+5
+c+93zvnOd+71zZulM+qvVoevaPF9P6b3d3iLdFlU09xSTHRImzFzKZaHZjZkk5DL
+bc1TJMyM4QSJA5FkIU+wAkMzMstRAskgnkcUwdOkIPMcybC0AHhZVMs4STE0zwmA
+JiQcIVIUKQEHWDQmK/Zs5CxwKna3KitKJKRxlQIkmiE5FqeQQEgsh3iBJQCNixSk
+IS8zKjHH4dIYqjkRuFCs4lDv1IN1xt598Pd84wRHiJLagqChCEUekIIEcJkUOUaS
+SRyHjCAiyBKcTHA0CRFiaAJSuMDIQJBEFtD0jO+iGTmZkSmGUUeGOACqHCMiWoSQ
+YHHIqTxBA7qQ0w7ykYp2OuzAJrk8ig0qdhe2JRpTax4FIi1ebZ774mKhI1/VKXA6
+3A7osKn1HLe7wGXW+O7NBRqhGInW/6WsomKX1ExVhgc5XYrDjpkJFQndiqZNsAQl
+CALFkdEY2lSgOJFV0RAMx/K4urQ+yKMFxYsUSUk0QTJAFCSJV1+PZFlcQByJS5xA
+kmquPKQoHgKeFQgWQDUhhoGCRCKcgpg2XKHdgZlJWvUJslVNl5JtB+4iJ8K2dHa8
+PlunN+qCgwzaZ9MZ54Te+4JbhYcmgyqSv7MMFNeF2Op7YXPR27r5R6g4A50VT3fu
+vzWQx3au3UiFXFnv/dFXvuHfV1LeG3rrxV034AXnpbJrIZGHsVUpMUeX7ivpisz4
+dlE3ML9/PqIm+tSBZ0LoXf7B57rFIfzJb6RA2sTd1cd0+qaCPqK41z9g+jQsvWcq
+4aM1Ky2zuMVnBgO3Vp++libuy2spTenPuRjh/WWyJuzPztz4R+c2miqC4s7Ne2ob
+W5e60NdzJCfin/Gzg8+efPoHzHDObfhr4qjcbrsB1gXKv6xqi/dWvrT12N5NoUYx
+pizA3v4scyRxqCGJW7ijuvzk8juhFz+IaMoMLFnx1fWbL0SVvLt0+fBxy+2EBqr2
+7/kVGTs/3O+p3nNioDCpJ6X/vKU3o3Alj3vX144eNORSNzfq29uirnw9bUpalb7k
+zoMvN44khB2O9cLEijHTDiubad6dtfZ6pb8xcUHqBFg0nfx5/YU5kxsuhR/YqZuu
+Dx0ejT07u+oQe7kXa6202X7O/HXyatVBXV6fZ+KRdcndJx7bFvNqf6DL2twakzH+
+Tk2zu25C7+tfNhpS1jW0PcEwwI09Yaxtr0o3xF7+PX/x48C0oORuyydGovHQmmCL
+X2it1w2/+cC4uUfZe2pqWWfySFxu6ccdrz2/XRdpOpMxGnTc7Y/KjmzY88VPbb9Z
+psL7StLeCD5duDvV9zBt/eM/TVXHJA==
+=pb6g
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ronaldsvilcins
+
+==================================================================

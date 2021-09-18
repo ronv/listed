@@ -1,0 +1,10 @@
+
+{{ $tags := $.Site.Taxonomies.tags.ByCount }}
+{{ $v1 := where $tags "Count" ">=" 3 }}
+{{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
+{{ range $v2 }}
+{{ if .Term }}
+{{ $tagURL := printf "tags/%s" .Term | relURL }}
+<a href="{{ $tagURL }}">{{ .Term }} <span>({{ .Count }})</span></a>
+{{ end }}
+{{ end }}
