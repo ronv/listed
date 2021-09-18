@@ -1,5 +1,5 @@
 ---
-title: "Lorem qui ratione voluptatem"
+title: "Lorem ipsum magni dolores eos voluptatem"
 description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
 date: "2015-09-08"
 tags:

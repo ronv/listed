@@ -1,5 +1,5 @@
 +++
-title = "Lorem ipsum"
+title = "Lorem ipsum dolores eos qui ratione voluptatem"
 description = "Custom description (max 160 characters)"
 tags = [
     "markdown",
