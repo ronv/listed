@@ -2,7 +2,7 @@
 
 Listed is a minimalistic Hugo blogging theme.
 
-### Demo: [https://lines-hugo-theme.netlify.app/](https://lines-hugo-theme.netlify.app/)
+### Demo: [https://listed-hugo.netlify.app/](https://listed-hugo.netlify.app/)
 
 ### Features
 
